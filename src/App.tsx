@@ -4,6 +4,8 @@ import { Home } from './components/pages/Home/Home';
 import { ManagedServices } from './components/pages/solutions/Managed';
 import { CloudServices } from './components/pages/solutions/Cloud';
 import { ContactUs } from './components/pages/contactUs/ContactUs';
+import { CPanel } from './components/pages/cPanel/CPanel';
+import { CloudPricing } from './components/pages/cloudServices/cloudpricing/CloudPricing';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +29,16 @@ const router = createBrowserRouter([
         path: "ContactUs",
         element: <ContactUs />,
       },
+      {
+
+        path: "cPanel",
+        element: <CPanel />,
+      },
+      {
+
+        path: "cloudserver",
+        element: <CloudPricing />,
+      },
 
     ]
   },
@@ -34,6 +46,7 @@ const router = createBrowserRouter([
     path: "about",
     element: <div>About</div>,
   },
+ 
 ]);
 function App() {
   return (

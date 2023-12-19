@@ -1,5 +1,10 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 export const Stats = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div id="solution ">
     <div className='my-24 max-w-7xl mx-auto px-6 md:px-12 xl:px-6'>
@@ -14,7 +19,8 @@ export const Stats = () => {
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
      
        </div> */}
-               <div className="mockup-browser border border-base-300 ">
+               <div data-aos="fade-up"
+     data-aos-duration="1000"  className="mockup-browser border border-base-300 ">
   <div className="mockup-browser-toolbar">
     <div className="input border border-base-300">https://www.youtube.com/@nk2itptyltd816</div>
   </div>
@@ -22,7 +28,8 @@ export const Stats = () => {
   <iframe className='w-[30rem] h-[20rem]'  src="https://www.youtube.com/embed/sNRt4KDLCDw" title="NK2IT - Help Desk Video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
   </div>
 </div>
-        <div className="md:7/12 lg:w-1/2">
+        <div className="md:7/12 lg:w-1/2" data-aos="fade-up"
+     data-aos-duration="1000" >
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl dark:text-white">
             Nuxt development is carried out by passionate developers
           </h2>
