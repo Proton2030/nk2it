@@ -1,10 +1,29 @@
+import { useEffect } from "react";
 
 
 export const NavBar = () => {
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            const navbar = document.querySelector(".nav");
+            const items = document.getElementById("items");
+            if (window.scrollY > 100) {
+                navbar!.classList.add("shadow");
+                navbar!.classList.add("bg-[#f5f9ff]/30");
+                navbar!.classList.remove("bg-[#f5f9ff]");
+                items!.classList.remove("justify-end");
+            } else {
+                items!.classList.add("justify-end");
+                navbar!.classList.add("bg-[#f5f9ff]");
+                navbar!.classList.remove("bg-[#f5f9ff]/30");
+                navbar!.classList.remove("shadow");
+            }
+        });
+    })
+
     return (
         <>
             <header>
-                <nav className="z-10 w-full  fixed">
+                <nav className="nav   z-10 w-full  fixed">
                     <div className="w-full mx-auto px-6 md:px-12 xl:px-6">
                         <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
                             <input aria-hidden="true" type="checkbox" name="toggle_nav" id="toggle_nav" className="hidden peer" />

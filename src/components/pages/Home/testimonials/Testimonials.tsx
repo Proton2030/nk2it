@@ -1,8 +1,14 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 export const Testimonials = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     
-<div className="text-gray-600 dark:text-gray-300 my-24" id="testimonials">
+<div data-aos="fade-up"
+     data-aos-duration="1000" className="text-gray-600 dark:text-gray-300 my-24" id="testimonials">
   <div className='max-w-7xl mx-auto px-6 md:px-12 xl:px-6'>
     <div className="mb-20 space-y-4 px-6 md:px-0">
       <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
