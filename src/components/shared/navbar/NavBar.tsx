@@ -63,9 +63,9 @@ export const NavBar = () => {
                                             <Link to=""><div className="-mt-1 dropdown dropdown-hover">
                                                 <div tabIndex={0} role="button" className=" m-1 hover:text-green-700">Solution</div>
                                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                                    <li><Link to="/solutions/managedServices">Managed Services</Link></li>
+                                                    <li><Link to="/managedServices">Managed Services</Link></li>
                                                     <li><Link to="">Software Licensing</Link></li>
-                                                    <li><Link to="solutions/cloudServices">Cloud</Link></li>
+                                                    <li><Link to="/cloudServices">Cloud</Link></li>
                                                     <li><Link to="">Saas</Link></li>
                                                 </ul>
                                             </div></Link>

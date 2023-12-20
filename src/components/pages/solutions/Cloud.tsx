@@ -11,7 +11,7 @@ export const CloudServices = () => {
                             solutions
                         </p>
                         <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">
-                            Managed Services
+                           cloud Services
                         </h2>
                         <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
                             <div className="flex-1 h-2 bg-green-200">
