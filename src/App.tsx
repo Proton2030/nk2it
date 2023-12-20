@@ -1,10 +1,14 @@
 // import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Layout } from './components/pages/Home/Layout/Layout'
-import { Home } from './components/pages/Home/Home'
-import { CloudServices } from './components/pages/solutions/Cloud'
-import { ManagedServices } from './components/pages/solutions/Managed'
-import { ContactUs } from './components/pages/contactUs/ContactUs'
+
+import { Home } from './components/pages/Home/Home';
+import { ManagedServices } from './components/pages/solutions/Managed';
+import { CloudServices } from './components/pages/solutions/Cloud';
+import { ContactUs } from './components/pages/contactUs/ContactUs';
+import { CPanel } from './components/pages/cPanel/CPanel';
+import { CloudPricing } from './components/pages/cloudServices/cloudpricing/CloudPricing';
+
 function App() {
   return (
    <>
