@@ -55,7 +55,7 @@ export const NavBar = () => {
                                 <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                                     <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-7">
                                         <li>
-                                            <Link to="/Home" className="block md:px-4 transition hover:text-green-700">
+                                            <Link to="/" className="block md:px-4 transition hover:text-green-700">
                                                 <span>Home</span>
                                             </Link>
                                         </li>
@@ -131,7 +131,7 @@ export const NavBar = () => {
                                         </li>
                                         
                                         <li>
-                                            <Link to="#blog" className="block md:px-4 transition hover:text-green-700 whitespace-nowrap">
+                                            <Link to="/ContactUs" className="block md:px-4 transition hover:text-green-700 whitespace-nowrap">
                                                          <span>Contact Us</span>
                                                             </Link>
                                         </li>
