@@ -31,13 +31,13 @@ export const NavBar = () => {
                         <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
                             <input aria-hidden="true" type="checkbox" name="toggle_nav" id="toggle_nav" className="hidden peer" />
                             <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
-                            <a href="#home" aria-label="logo" className="flex space-x-2 items-center">
+                            <Link to="#home" aria-label="logo" className="flex space-x-2 items-center">
   <img
     src="https://nk2it.com.au/wp-content/uploads/2021/08/logo.png"
     alt=""
     style={{ width: '50px', height: '50px' }} // Adjust the size as needed
   />
-</a>
+</Link>
 
                                 <div className="relative flex items-center lg:hidden max-h-10">
                                     <label role="button" htmlFor="toggle_nav" aria-label="humburger" id="hamburger" className="relative  p-6 -mr-6">
@@ -55,85 +55,85 @@ export const NavBar = () => {
                                 <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                                     <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-7">
                                         <li>
-                                            <a href="#Home" className="block md:px-4 transition hover:text-green-700">
+                                            <Link to="/Home" className="block md:px-4 transition hover:text-green-700">
                                                 <span>Home</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href=""><div className="-mt-1 dropdown dropdown-hover">
+                                            <Link to=""><div className="-mt-1 dropdown dropdown-hover">
                                                 <div tabIndex={0} role="button" className=" m-1 hover:text-green-700">Solution</div>
                                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                                    <li><a href="/solutions/managedServices">Managed Services</a></li>
-                                                    <li><a>Software Licensing</a></li>
-                                                    <li><a href="solutions/cloudServices">Cloud</a></li>
-                                                    <li><a>Saas</a></li>
+                                                    <li><Link to="/solutions/managedServices">Managed Services</Link></li>
+                                                    <li><Link to="">Software Licensing</Link></li>
+                                                    <li><Link to="solutions/cloudServices">Cloud</Link></li>
+                                                    <li><Link to="">Saas</Link></li>
                                                 </ul>
-                                            </div></a>
+                                            </div></Link>
 
                                         </li>
                                         <li>
-                                            <a href=""><div className="-mt-1 dropdown dropdown-hover">
+                                            <Link to=""><div className="-mt-1 dropdown dropdown-hover">
                                             <div tabIndex={0} role="button" className="m-1 hover:text-green-700 whitespace-nowrap">
   Our Packages
 </div>
 
                                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                                    <li><a>Power and cooling</a></li>
-                                                    <li><a>Unify Comunications</a></li>
-                                                    <li><a>Network infrastructure</a></li>
+                                                    <li><Link to="">Power and cooling</Link></li>
+                                                    <li><Link to="">Unify Comunications</Link></li>
+                                                    <li><Link to="">Network infrastructure</Link></li>
                                                 </ul>
-                                            </div></a>
+                                            </div></Link>
 
                                         </li>
                                         <li>
-                                            <a href=""><div className="-mt-1 dropdown dropdown-hover">
+                                            <Link to=""><div className="-mt-1 dropdown dropdown-hover">
                                                 <div tabIndex={0} role="button" className=" m-1 hover:text-green-700">Hosting</div>
                                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                                    <li><a>cPanel Web Hosting</a></li>
-                                                    <li><a>Cloud Server</a></li>
+                                                    <li><Link to="">cPanel Web Hosting</Link></li>
+                                                    <li><Link to="">Cloud Server</Link></li>
                                                 </ul>
-                                            </div></a>
+                                            </div></Link>
 
                                         </li>
                                         <li>
-                                            <a href=""><div className="-mt-1 dropdown dropdown-hover">
+                                            <Link to=""><div className="-mt-1 dropdown dropdown-hover">
                                             <div tabIndex={0} role="button" className="m-1 hover:text-green-700 whitespace-nowrap">
   Case Study
 </div>
 
                                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                                    <li><a>ACM Partner</a></li>
-                                                    <li><a>Taegutec</a></li>
-                                                    <li><a>Hanjin Shipping</a></li>
-                                                    <li><a>RWV Industries</a></li>
-                                                    <li><a>Memjet</a></li>
-                                                    <li><a>FHEC</a></li>
-                                                    <li><a>Langenberg Law</a></li>
-                                                    <li><a>Makinson Lawyers</a></li>
-                                                    <li><a>Data Center Provider</a></li>
-                                                    <li><a>Haines Conveyancing Service</a></li>
-                                                    <li><a>TCASS</a></li>
+                                                    <li><Link to="">ACM Partner</Link></li>
+                                                    <li><Link to="">Taegutec</Link></li>
+                                                    <li><Link to="">Hanjin Shipping</Link></li>
+                                                    <li><Link to="">RWV Industries</Link></li>
+                                                    <li><Link to="">Memjet</Link></li>
+                                                    <li><Link to="">FHEC</Link></li>
+                                                    <li><Link to="">Langenberg Law</Link></li>
+                                                    <li><Link to="">Makinson Lawyers</Link></li>
+                                                    <li><Link to="">Data Center Provider</Link></li>
+                                                    <li><Link to="">Haines Conveyancing Service</Link></li>
+                                                    <li><Link to="">TCASS</Link></li>
                                                 </ul>
-                                            </div></a>
+                                            </div></Link>
 
                                         </li>
 
                                         {/* <li>
-                                            <a href="#testimonials" className="block md:px-4 transition hover:text-green-700">
+                                            <Link to="#testimonials" className="block md:px-4 transition hover:text-green-700">
                                                 <span>Testimonials</span>
-                                            </a>
+                                            </Link>
                                         </li> */}
                                         <li>
-                                            <a href="#blog" className="block md:px-4 transition hover:text-green-700">
+                                            <Link to="#blog" className="block md:px-4 transition hover:text-green-700">
                                                 <span>Blog</span>
-                                            </a>
+                                            </Link>
                                             
                                         </li>
                                         
                                         <li>
-                                            <a href="#blog" className="block md:px-4 transition hover:text-green-700 whitespace-nowrap">
+                                            <Link to="#blog" className="block md:px-4 transition hover:text-green-700 whitespace-nowrap">
                                                          <span>Contact Us</span>
-                                                            </a>
+                                                            </Link>
                                         </li>
                                         
                                   
