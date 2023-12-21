@@ -51,11 +51,7 @@ export const NavBar = () => {
                     id="hamburger"
                     className="relative  p-6 -mr-6"
                   >
-                    <div
-                      aria-hidden="true"
-                      id="line"
-                      className="m-auto h-0.5 w-5 rounded bg-sky-900 dark:bg-gray-300 transition duration-300"
-                    ></div>
+                    
                     <div
                       aria-hidden="true"
                       id="line2"
