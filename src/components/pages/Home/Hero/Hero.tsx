@@ -6,6 +6,7 @@ import { VideoCard } from '../../../shared/vdocard/VideoCard';
 import CompanyList from '../companyList/CompanyList';
 
 const Hero = () => {
+
   useEffect(() => {
     AOS.init();
   }, [])
