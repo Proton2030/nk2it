@@ -4,7 +4,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import { VideoCard } from '../../../shared/vdocard/VideoCard';
 import CompanyList from '../companyList/CompanyList';
-export const Hero = () => {
+
+const Hero = () => {
   useEffect(() => {
     AOS.init();
   }, [])
@@ -100,3 +101,5 @@ export const Hero = () => {
     </div>
   )
 }
+
+export default Hero;
