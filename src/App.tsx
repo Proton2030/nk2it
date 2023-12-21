@@ -6,8 +6,8 @@ import { Home } from './components/pages/Home/Home';
 import { ManagedServices } from './components/pages/solutions/Managed';
 import { CloudServices } from './components/pages/solutions/Cloud';
 import { ContactUs } from './components/pages/contactUs/ContactUs';
-import { CPanel } from './components/pages/cPanel/CPanel';
-import { CloudPricing } from './components/pages/cloudServices/cloudpricing/CloudPricing';
+// import { CPanel } from './components/pages/cPanel/CPanel';
+// import { CloudPricing } from './components/pages/cloudServices/cloudpricing/CloudPricing';
 
 function App() {
   return (
