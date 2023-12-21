@@ -216,7 +216,7 @@ export const NavBar = () => {
                     </li>
                     <li>
                       <Link
-                        to="#blog"
+                        to="/blog"
                         className="block md:px-4 transition hover:text-green-700"
                       >
                         <span>Blog</span>
