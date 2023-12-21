@@ -1,48 +1,52 @@
-
-import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
 export const NavBar = () => {
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            const navbar = document.querySelector(".nav");
-            const items = document.getElementById("items");
-            if (window.scrollY > 100) {
-                navbar!.classList.add("shadow");
-                navbar!.classList.add("bg-[#f5f9ff]/30");
-                navbar!.classList.remove("bg-[#f5f9ff]");
-                items!.classList.remove("justify-end");
-            } else {
-                items!.classList.add("justify-end");
-                navbar!.classList.add("bg-[#f5f9ff]");
-                navbar!.classList.remove("bg-[#f5f9ff]/30");
-                navbar!.classList.remove("shadow");
-            }
-        });
-    })
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const navbar = document.querySelector(".nav");
+      const items = document.getElementById("items");
+      if (window.scrollY >= 100) {
+        navbar!.classList.add("shadow");
+        navbar!.classList.add("bg-[#f5f9ff]/30");
+        navbar!.classList.remove("bg-[#f5f9ff]");
+        items!.classList.remove("justify-end");
+    } else {
+        items!.classList.add("justify-end");
+        items!.classList.add("justify-end");
+        navbar!.classList.add("bg-[#f5f9ff]");
+        navbar!.classList.remove("bg-[#f5f9ff]/30");
+        navbar!.classList.remove("backdrop-blur-lg");
+    }
+    });
+  });
 
-    return (
-        <>
-
-            <header>
-                <nav className="nav   z-10 w-full  fixed">
-                    <div className="w-full mx-auto px-6 md:px-12 xl:px-6">
-                        <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
-                            <input aria-hidden="true" type="checkbox" name="toggle_nav" id="toggle_nav" className="hidden peer" />
-                            <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
-                            <Link to="#home" aria-label="logo" className="flex space-x-2 items-center">
-  <img
-    src="https://nk2it.com.au/wp-content/uploads/2021/08/logo.png"
-    alt=""
-    style={{ width: '50px', height: '50px' }} // Adjust the size as needed
-  />
-</Link>
+  return (
+    <>
+      <header>
+        <nav className="nav z-10 w-full fixed backdrop-blur-lg border-none bg-opacity-70 ">
+          <div className="w-full mx-auto px-6 md:px-12 xl:px-6">
+            <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
+              <input
+                aria-hidden="true"
+                type="checkbox"
+                name="toggle_nav"
+                id="toggle_nav"
+                className="hidden peer"
+              />
+              <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
+                <Link to="#home" aria-label="logo" className="flex space-x-2 items-center">
+                  <img
+                    src="https://nk2it.com.au/wp-content/uploads/2021/08/logo.png"
+                    alt=""
+                    style={{ width: "120px", height: "50px" }}
+                  />
+                </Link>
 
                                 <div className="relative flex items-center lg:hidden max-h-10">
                                     <label role="button" htmlFor="toggle_nav" aria-label="humburger" id="hamburger" className="relative  p-6 -mr-6">
                                         <div aria-hidden="true" id="line" className="m-auto h-0.5 w-5 rounded bg-sky-900 dark:bg-gray-300 transition duration-300"></div>
-                                        <div aria-hidden="true" id="line2" className="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 dark:bg-gray-300 transition duration-300"></div>
+                                        
                                     </label>
                                 </div>
                             </div>
@@ -55,7 +59,7 @@ export const NavBar = () => {
                                 <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                                     <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-7">
                                         <li>
-                                            <Link to=" " className="block md:px-4 transition hover:text-green-700">
+                                            <Link to="/Home" className="block md:px-4 transition hover:text-green-700">
                                                 <span>Home</span>
                                             </Link>
                                         </li>
