@@ -6,8 +6,9 @@ import { Home } from './components/pages/Home/Home';
 import { ManagedServices } from './components/pages/solutions/Managed';
 import { CloudServices } from './components/pages/solutions/Cloud';
 import { ContactUs } from './components/pages/contactUs/ContactUs';
-// import { CPanel } from './components/pages/cPanel/CPanel';
-// import { CloudPricing } from './components/pages/cloudServices/cloudpricing/CloudPricing';
+import Blog from './components/pages/Blog/Blog';
+
+
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
        <Route path='/solutions/managedServices' element={<ManagedServices/>}/>
        <Route path='/solutions/cloudServices' element={<CloudServices/>}/>
        <Route path='/ContactUs' element={<ContactUs/>}/>
-       <Route path='/about' element={<div>About</div>}/>
+       <Route path='/blog' element={<Blog/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
