@@ -23,7 +23,7 @@ export const NavBar = () => {
   return (
     <>
       <header>
-        <nav className="nav z-10 w-full fixed">
+        <nav className="nav z-10 w-full fixed backdrop-blur-lg bg-opacity-70 bg-white">
           <div className="w-full mx-auto px-6 md:px-12 xl:px-6">
             <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
               <input
@@ -38,7 +38,7 @@ export const NavBar = () => {
                   <img
                     src="https://nk2it.com.au/wp-content/uploads/2021/08/logo.png"
                     alt=""
-                    style={{ width: "50px", height: "50px" }}
+                    style={{ width: "80px", height: "50px" }}
                   />
                 </Link>
 
@@ -74,7 +74,7 @@ export const NavBar = () => {
                     <li>
                       <Link
                         to="/"
-                        className="block md:px-4 transition hover:text-green-700"
+                        className="block md:px-4 transition hover:text-green-700 rounded-lg"
                       >
                         <span>Home</span>
                       </Link>
