@@ -123,13 +123,13 @@ export const NavBar = () => {
                             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
                           >
                             <li>
-                              <Link to="">Power and cooling</Link>
+                              <Link to="/ourpackages/powercolling">Power and cooling</Link>
                             </li>
                             <li>
-                              <Link to="">Unify Comunications</Link>
+                              <Link to="/ourpackages/unitycommunication">Unify Comunications</Link>
                             </li>
                             <li>
-                              <Link to="">Network infrastructure</Link>
+                              <Link to="/ourpackages/networkinginfrastructure">Network infrastructure</Link>
                             </li>
                           </ul>
                         </div>
