@@ -3,7 +3,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import { VideoCard } from '../../../shared/vdocard/VideoCard';
-export const Hero = () => {
+import CompanyList from '../companyList/CompanyList';
+
+const Hero = () => {
+
   useEffect(() => {
     AOS.init();
   }, [])
@@ -34,11 +37,11 @@ export const Hero = () => {
 
               
             </div>
-            <div className="flex justify-center" data-aos="fade-up">  <VideoCard/></div>
+            <div className="flex justify-center" data-aos="fade-up" data-aos-duration="2000">  <VideoCard/></div>
           
-            <div data-aos="fade-up"
-     data-aos-duration="1000"  className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
-              <div className="flex gap-3 items-start ">
+            <div   className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+              <div data-aos="fade-up"
+     data-aos-duration="1000"  className="flex gap-3 items-start ">
                 <div className="-mt-2">
                   <img className="h-20 w-20" src="https://img.icons8.com/?size=160&id=h2X0Cy3sU70i&format=png" alt="" />
                 </div>
@@ -47,7 +50,8 @@ export const Hero = () => {
                   <p className="mt-2 text-gray-500">Some text here</p>
                 </div>
               </div>
-              <div className="flex gap-3 items-start ">
+              <div data-aos="fade-up"
+     data-aos-duration="1500" className="flex gap-3 items-start ">
                 <div className="-mt-2">
                   <img className="h-20 w-20" src="https://img.icons8.com/?size=160&id=113866&format=png" alt="" />
                 </div>
@@ -57,7 +61,8 @@ export const Hero = () => {
                 </div>
               </div>
             
-              <div className="flex gap-3 items-start ">
+              <div data-aos="fade-up"
+     data-aos-duration="2000" className="flex gap-3 items-start ">
                 <div className="-mt-2">
                   <img className="h-20 w-20" src="https://img.icons8.com/?size=160&id=108633&format=png" alt="" />
                 </div>
@@ -69,10 +74,9 @@ export const Hero = () => {
             
             </div>
           </div>
-          <div data-aos="fade-up"
-     data-aos-duration="1000"  className="mt-12 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-5">
+          {/* <div   className="mt-12 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-5">
           
-            <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
+            <div  className="p-4 grayscale transition duration-200 hover:grayscale-0">
               <img src="https://nk2it.com.au/wp-content/uploads/2021/08/scroll-logo-1.jpg" className="h-20 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
             </div>
           
@@ -90,10 +94,13 @@ export const Hero = () => {
               <img src="https://nk2it.com.au/wp-content/uploads/2021/08/PA_Partner_APPROVED_Color_HighRes.jpg" className="h-20 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
             </div>
             
-          </div>
+          </div> */}
         </div>
+        <CompanyList/>
       </div>
       
     </div>
   )
 }
+
+export default Hero;
