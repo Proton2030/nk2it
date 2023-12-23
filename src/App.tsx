@@ -10,11 +10,6 @@ import Blog from './components/pages/Blog/Blog';
 import { Powercolling } from './components/pages/Home/Ourpackage/powercolling';
 import { Netwrokinfra } from './components/pages/Home/Ourpackage/Networkinfrastructure';
 import { Unitycommunication } from './components/pages/Home/Ourpackage/unitycommunication';
-
-
-
-
-
 function App() {
   return (
    <>
@@ -23,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route path='' element={<Home/>}/>
-       <Route path='/solutions/managedServices' element={<ManagedServices/>}/>
-       <Route path='/solutions/cloudServices' element={<CloudServices/>}/>
+       <Route   path='/managedServices' element={<ManagedServices/>}/>
+       <Route path='/cloudServices' element={<CloudServices/>}/>
        <Route path='/ContactUs' element={<ContactUs/>}/>
        <Route path='/blog' element={<Blog/>}/>
        <Route path='/ourpackages/powercolling' element={<Powercolling/>}/>
