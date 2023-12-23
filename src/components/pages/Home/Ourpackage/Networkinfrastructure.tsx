@@ -1,17 +1,16 @@
-import { Footer } from "../../shared/footer/Footer"
+import { Footer } from "../../../shared/footer/Footer"
 
-
-export const CloudServices = () => {
+export const Netwrokinfra = () => {
     return (
-        <div className="md:pt-56">
-            <section className="flex mt-20  items-center  lg:h-screen font-poppins dark:bg-gray-800 ">
+        <div className='py-56'>
+            {/* <section className="flex mt-20  items-center  lg:h-screen font-poppins dark:bg-gray-800 ">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
                     <div className="px-4 mb-10 md:text-center md:mb-20">
                         <p className="mb-2 text-lg font-semibold text-green-500 dark:text-gray-400">
-                            solutions
+                            Ourpackages
                         </p>
                         <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">
-                           cloud Services
+                        Unify Communications
                         </h2>
                         <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
                             <div className="flex-1 h-2 bg-green-200">
@@ -21,15 +20,15 @@ export const CloudServices = () => {
                             <div className="flex-1 h-2 bg-green-300">
                             </div>
                         </div>
-                        <div className="">Managed Services strategically improve ease-of-operation and reduce on-site systems maintenance expenses by outsourcing IT infrastructure and/or end-user system management responsibilities.
-                            NK2IT offers proactive and reactive managed services to maintain smooth core business functions for small and medium-sized business and enterprises.</div>
+                        <div className="">The improvement of networking and communication technologies has enabled an unprecedented level of connectivity between service providers and clients. NK2IT delivers custom, stable phone-line and networking connections to reduce telecommunications expenditure and overcome workplace communication barriers. In partnership with Unify communications, NK2IT presents the Unify data communications package</div>
+
                     </div>
                     <div className="flex flex-wrap items-center">
                         <div className="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
                             <h2 className="mb-4 text-2xl font-bold text-gray-700 dark:text-gray-300 -ml-20">
                                 <div className="flex gap-5 items-center">
                                     <img src="https://img.icons8.com/?size=160&id=110198&format=png" alt="" />
-                                    <div className="">Managed Services Capabilities</div>
+                                    <div className="">Package inclusions</div>
                                 </div>
 
                             </h2>
@@ -43,7 +42,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Operating system installation & upgrade
+                                    Free communications network assessment
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
@@ -53,7 +52,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Critical patch upgrades for Servers, Desktops and Laptops
+                                    Unify digital/IP telephony demonstration/trial
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
@@ -63,7 +62,8 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Service pack updates, patching and application/security updates
+                                    Robust system installation
+
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400 ">
@@ -73,7 +73,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Backup system maintenance (Upgrading, Patching and new Installation)
+                                    Up to 60 month after-sales support
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
@@ -83,7 +83,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Service pack updates, patching and application/security updates
+                                    PSTN/ISDN/SIP trunk files (for new and existing networks)
                                 </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -92,54 +92,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    License renewal (Antivirus, Anti Spyware and Unified System)
-                                </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Health checks (monitor and review) and systems optimisation (configure and manage)
-                                </li>
-                                <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Proactive and reactive support
-                                </li>
-                                <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Onsite and remote support
-                                </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Telephony system installation/upgrade and maintenance (Unify Communications System by Unify/Siemens)
-                                </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Software as a Service (SaaS)
+                                    Free wired headsets with every new purchase (new customers only)
                                 </li>
                             </ul>
 
@@ -203,10 +156,240 @@ export const CloudServices = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <div className="md:mt-56">
-                <Footer />
-            </div>
+            </section> */}
+            <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+                    <div className="px-4 mb-10 md:text-center md:mb-20">
+                        <p className="mb-2 text-lg font-semibold text-green-500 dark:text-gray-400">
+                            Ourpackages
+                        </p>
+                        <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">
+                        Network Infrastructure
+                        </h2>
+                        <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
+                            <div className="flex-1 h-2 bg-green-200">
+                            </div>
+                            <div className="flex-1 h-2 bg-green-400">
+                            </div>
+                            <div className="flex-1 h-2 bg-green-300">
+                            </div>
+                        </div>
+                        <div className="">NK2IT collaborates with a specialist consulting technical team to provide a comprehensive range of data cabling and network infrastructure solutions.</div>
+
+                    </div>
+                    </div>
+
+
+
+              <section className="flex  mt-5  font-poppins dark:bg-gray-800 ">
+                <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+
+                    <div className="flex flex-wrap ">
+                        <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0 mt-44">
+                            <img src="https://i.postimg.cc/HsSPvTq8/pexels-fauxels-3184357.jpg" alt=""
+                                className="relative z-40 object-cover w-full rounded-md md:h-96 h-44" />
+                            <div className="absolute top-0 right-0 items-center justify-center hidden -mt-16 lg:inline-flex">
+
+                            </div>
+                        </div>
+                        <div className="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
+                            <h2 className="mb-4 text-2xl font-bold text-gray-700 dark:text-gray-300 -ml-20">
+                                <div className="flex gap-5 items-center">
+                                    <img src="https://img.icons8.com/?size=160&id=114256&format=png" alt="" />
+                                    <div className=""> Package inclusions</div>
+                                </div>
+
+                            </h2>
+
+                            <ul className="mb-10">
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Cabling solutions (copper, fibre optic)</div>
+                                        </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold"> Data systems architecture (distributed, centralised, zoned)</div>
+                                        </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold"> Procurement of Racks and Enclosures, UPS, Power Products with Accessories</div>
+                                        </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold"> Procurement of Racks and Enclosures, UPS, Power Products with Accessories</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold"> Procurement of Structured Cabling, Fibre optics, Audio and Video Cables, Data link cables, cabling accessories, Telephony, RJ Plugs and BNC Connectors</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">  Procurement of Memory, Hard Drives, PC Peripherals</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Structured Cabling Systems</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Computer Room Fit outs</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Computer Room Fit outs</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold"> Telephone Systems & PABX’s Cabling
+</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Surveillance Cabling</div>
+                                        </div>
+                                </li>
+
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Project Design and Management</div>
+                                        </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold"> Data communications system assessment package (includes Site survey, Design and implementation, Testing and maintenance, Certification)</div>
+                                        </div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section> 
+
+           
+            
+            <Footer />
         </div>
     )
 }
