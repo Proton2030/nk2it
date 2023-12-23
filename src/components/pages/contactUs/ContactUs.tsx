@@ -1,6 +1,6 @@
-
-
+import { useForm, ValidationError } from '@formspree/react';
 export const ContactUs = () => {
+    const [state, handleSubmit] = useForm("mjvnbjvv");
     return (
         <>
            <section className="bg-white dark:bg-gray-900">
@@ -75,32 +75,59 @@ export const ContactUs = () => {
             </div>
 
             <div className="mt-8 lg:w-1/2 lg:mx-6">
-                <div
-                    className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
-                    <h1 className="text-lg font-medium text-gray-700">What do you want to ask</h1>
+      <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+        <h1 className="text-lg font-medium text-gray-700">What do you want to ask</h1>
 
-                    <form className="mt-6">
-                        <div className="flex-1">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
-                            <input type="text" placeholder="John Doe" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
-                        </div>
+        <form className="mt-6" onSubmit={handleSubmit}>
+          <div className="flex-1">
+            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+            <input
+              type="text"
+              name="name"  // Add the name attribute for Formspree
+              placeholder="John Doe"
+              className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
 
-                        <div className="flex-1 mt-6">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
-                            <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
-                        </div>
+          <div className="flex-1 mt-6">
+            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+            <input
+              type="email"
+              name="email"  // Add the name attribute for Formspree
+              placeholder="johndoe@example.com"
+              className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+            />
+          </div>
 
-                        <div className="w-full mt-6">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
-                            <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
-                        </div>
+          <div className="w-full mt-6">
+            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+            <textarea
+              name="message"  // Add the name attribute for Formspree
+              className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+              placeholder="Message"
+            ></textarea>
+          </div>
 
-                        <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                            get in touch
-                        </button>
-                    </form>
-                </div>
-            </div>
+          <button
+            type="submit"  // Add type="submit" to the button
+            className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+            disabled={state.submitting}
+          >
+            get in touch
+          </button>
+        </form>
+
+        {/* Show success message if the form is successfully submitted */}
+        {state.succeeded && <p>Thanks for joining!</p>}
+
+        {/* Show validation errors if any */}
+        <ValidationError
+          prefix="Please provide a valid"
+          field="email"
+          errors={state.errors}
+        />
+      </div>
+    </div>
         </div>
     </div>
 </section>

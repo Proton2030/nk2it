@@ -239,7 +239,7 @@ export const NavBar = () => {
                               <Link to="">Software Licensing</Link>
                             </li>
                             <li>
-                              <Link to="solutions/cloudServices">Cloud</Link>
+                              <Link to="/solutions/cloudServices">Cloud</Link>
                             </li>
                             <li>
                               <Link to="">Saas</Link>
@@ -263,6 +263,7 @@ export const NavBar = () => {
                             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
                           >
                             <li>
+
                               <Link to="/ourpackages/powercolling">Power and cooling</Link>
                             </li>
                             <li>
