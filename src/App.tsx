@@ -7,6 +7,7 @@ import { ManagedServices } from './components/pages/solutions/Managed';
 import { CloudServices } from './components/pages/solutions/Cloud';
 import { ContactUs } from './components/pages/contactUs/ContactUs';
 import Blog from './components/pages/Blog/Blog';
+import { Power } from './components/pages/OurPackages/power';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='' element={<Home/>}/>
        <Route path='/solutions/managedServices' element={<ManagedServices/>}/>
        <Route path='/solutions/cloudServices' element={<CloudServices/>}/>
+       <Route path='/Ourpacakages/power' element={<Power/>}/>
        <Route path='/ContactUs' element={<ContactUs/>}/>
        <Route path='/blog' element={<Blog/>}/>
         </Route>
