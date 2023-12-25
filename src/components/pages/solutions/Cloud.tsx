@@ -146,7 +146,7 @@ export const CloudServices = () => {
                         </div>
                         <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
                             <img src="https://i.postimg.cc/HsSPvTq8/pexels-fauxels-3184357.jpg" alt=""
-                                className="relative z-40 object-cover w-full rounded-md md:h-96 h-44" />
+                                className="relative    object-cover w-full rounded-md md:h-96 h-44" />
                             <div className="absolute top-0 right-0 items-center justify-center hidden -mt-16 lg:inline-flex">
                                 <svg width="290" height="166" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="290"

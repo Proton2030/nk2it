@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 
-export const CloudPricing = () => {
+export const CloudP= () => {
   return (
     <>
     <section className="py-32 bg-white dark:bg-gray-900">

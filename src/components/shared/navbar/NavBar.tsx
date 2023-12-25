@@ -35,11 +35,11 @@ export const NavBar = () => {
                 className="hidden peer"
               />
               <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
-                <Link to="#home" aria-label="logo" className="flex space-x-2 items-center">
+                <Link to="/" aria-label="logo" className="flex space-x-2 items-center">
                   <img
-                    src="https://nk2it.com.au/wp-content/uploads/2021/08/logo.png"
+                    src="/src/assets/images/logo.png"
                     alt=""
-                    style={{ width: "120px", height: "50px" }}
+                    style={{ width: "100%", height: "80px" }}
                   />
                 </Link>
 
@@ -102,7 +102,7 @@ export const NavBar = () => {
                               <Link to="/solutions/cloudServices">Cloud</Link>
                             </li>
                             <li>
-                              <Link to="">Saas</Link>
+                              <Link to="/solutions/saas">Saas</Link>
                             </li>
                           </ul>
                         </div>
@@ -123,13 +123,13 @@ export const NavBar = () => {
                             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
                           >
                             <li>
-                              <Link to="/Ourpackages/power">Power and cooling</Link>
+                              <Link to="/Ourpacakages/power">Power and cooling</Link>
                             </li>
                             <li>
-                              <Link to="">Unify Comunications</Link>
+                              <Link to="/Ourpacakages/unify">Unify Comunications</Link>
                             </li>
                             <li>
-                              <Link to="">Network infrastructure</Link>
+                              <Link to="/Ourpacakages/network">Network infrastructure</Link>
                             </li>
                           </ul>
                         </div>
@@ -150,10 +150,10 @@ export const NavBar = () => {
                             className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
                           >
                             <li>
-                              <Link to="">cPanel Web Hosting</Link>
+                              <Link to="/cpanel">cPanel Web Hosting</Link>
                             </li>
                             <li>
-                              <Link to="">Cloud Server</Link>
+                              <Link to="/cloudPricing">Cloud Server</Link>
                             </li>
                           </ul>
                         </div>
