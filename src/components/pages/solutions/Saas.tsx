@@ -203,10 +203,10 @@ export const Saas: React.FC = () => {
   const handleSecurityButtonClick = (product: string) => {
     if (product === 'Sophos') {
       // Redirect to YouTube
-      window.location.href = 'https://www.youtube.com/';
+      window.location.href = 'https://partnerportal.sophos.com/en-us/microsite/products/intercept-x-endpoint?partner_referral_id=001j000000MhgiD&partner_name=NK2IT+PTY+LTD';
     } else if (product === 'ESET') {
       // Redirect to Facebook
-      window.location.href = 'https://www.facebook.com/';
+      window.location.href = 'https://www.eset.com/au/request-business-trial-nk2it/';
     }
   };
 
