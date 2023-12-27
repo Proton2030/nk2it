@@ -4,7 +4,7 @@ import "./videocard.css";
 export const VideoCard = () => {
   return (
     <>
-      <div  className="card" onClick={()=>document.getElementById('my_modal_1')?.showModal()}>
+      <div  className="card" onClick={() => (document.getElementById('my_modal_1') as HTMLDialogElement)?.showModal()}>
         <div className="card__view">
           <div className="card__view__data">
             <p className="card__view__preview">Preview</p>

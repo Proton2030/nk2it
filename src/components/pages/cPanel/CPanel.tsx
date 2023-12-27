@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { AboutcPanel } from './about/AboutcPanel'
 import { CpanelPricing } from './cpanelPricing/CpanelPricing'
 
