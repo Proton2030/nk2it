@@ -14,6 +14,7 @@ import { Unity} from './components/pages/OurPackages/unify';
 import { CPanel } from './components/pages/cPanel/CPanel';
 import { CloudP} from './components/pages/cloudServices/cloudpricing/CloudPricing';
 import { Saas } from './components/pages/solutions/Saas';
+import CasePage from './components/pages/casestudy/cases/CaseInfo';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
        <Route path='/blog' element={<Blog/>}/>
        <Route path='/solutions/saas' element={<Saas/>}/>
        <Route path='/cloudPricing' element={<CloudP/>}/>
-     
+
+       <Route path="/:clientSlug" element={<CasePage />} />
 
         </Route>
       </Routes>
