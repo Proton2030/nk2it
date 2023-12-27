@@ -1,6 +1,7 @@
 
 import { useEffect } from "react";
 import "./company.css";
+import Adobe from "./images/Adove.png";
 // import Adove from "../../../../assets/images/Adove.png";
 // import Advantech_small from "../../../../assets/images/Advantech_small.png";
 // import Bewatec from "../../../../assets/images/Bewatec.png";
@@ -58,7 +59,7 @@ const CompanyList = () => {
         <div className="marquee bg-white w-full px- h-56 mx-auto mt-10">
           <ul className="ul marquee-content">
             {/* Use the imported variables directly */}
-            <li><img src="/src/assets/images/Adove.png" alt="Company Logo" /></li>
+            <li><img src={Adobe} alt="Company Logo" /></li>
             <li><img src="/src/assets/images/Advantech_small.png" alt="Company Logo" /></li>
             <li><img src="/src/assets/images/Bewatec.jpg" alt="" /></li>
             {/* Add more images using the imported variables */}

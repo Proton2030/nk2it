@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import logo from "../../../assets/images/logo.png";
 
 export const NavBar = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ export const NavBar = () => {
               <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
                 <Link to="/" aria-label="logo" className="flex space-x-2 items-center">
                   <img
-                    src="/src/assets/images/logo.png"
+                    src={logo}
                     alt=""
                     style={{ width: "100%", height: "80px" }}
                   />
