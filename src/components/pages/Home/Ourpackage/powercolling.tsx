@@ -1,17 +1,16 @@
-import { Footer } from "../../shared/footer/Footer"
+import { Footer } from "../../../shared/footer/Footer"
 
-
-export const CloudServices = () => {
+export const Powercolling = () => {
     return (
-        <div className="md:pt-56">
-            <section className="flex mt-20  items-center  lg:h-screen font-poppins dark:bg-gray-800 ">
+        <div className='py-56 '>
+            <section className="flex mt-5  items-center  lg:h-screen font-poppins dark:bg-gray-800 ">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
                     <div className="px-4 mb-10 md:text-center md:mb-20">
                         <p className="mb-2 text-lg font-semibold text-green-500 dark:text-gray-400">
-                            solutions
+                            Ourpackages
                         </p>
                         <h2 className="pb-2 text-2xl font-bold text-gray-800 md:text-4xl dark:text-gray-300">
-                           cloud Services
+                        Power And Cooling
                         </h2>
                         <div className="flex w-32 mt-1 mb-6 overflow-hidden rounded md:mx-auto md:mb-14">
                             <div className="flex-1 h-2 bg-green-200">
@@ -21,15 +20,17 @@ export const CloudServices = () => {
                             <div className="flex-1 h-2 bg-green-300">
                             </div>
                         </div>
-                        <div className="">Managed Services strategically improve ease-of-operation and reduce on-site systems maintenance expenses by outsourcing IT infrastructure and/or end-user system management responsibilities.
-                            NK2IT offers proactive and reactive managed services to maintain smooth core business functions for small and medium-sized business and enterprises.</div>
+                        <div className="">Efficient power distribution units (PDUs) and cooling systems help minimise power consumption, and maximise core infrastructure life.
+
+NK2IT offers efficient custom power and cooling packages for new and existing PDUs to reduce expenses associated energy expenditure and infrastructure replacement in our clients’ Data centre and branch office(s). Our consulting engineers offer a comprehensive on-site Level 1 Health Package.</div>
+
                     </div>
                     <div className="flex flex-wrap items-center">
                         <div className="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
                             <h2 className="mb-4 text-2xl font-bold text-gray-700 dark:text-gray-300 -ml-20">
                                 <div className="flex gap-5 items-center">
                                     <img src="https://img.icons8.com/?size=160&id=110198&format=png" alt="" />
-                                    <div className="">Managed Services Capabilities</div>
+                                    <div className="">Package inclusions</div>
                                 </div>
 
                             </h2>
@@ -43,7 +44,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Operating system installation & upgrade
+                                    Power load confirmation
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
@@ -53,7 +54,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Critical patch upgrades for Servers, Desktops and Laptops
+                                    UPS load and battery run-time assessment
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
@@ -63,7 +64,8 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Service pack updates, patching and application/security updates
+                                    Future power-load confirmation
+
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400 ">
@@ -73,7 +75,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Backup system maintenance (Upgrading, Patching and new Installation)
+                                    Redundancy check
                                 </li>
                                 <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
@@ -83,7 +85,7 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    Service pack updates, patching and application/security updates
+                                    Cooling capacity check
                                 </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
                                     <span className="mr-3 text-gray-500 dark:text-gray-400">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -92,61 +94,14 @@ export const CloudServices = () => {
                                                 d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
                                         </svg>
                                     </span>
-                                    License renewal (Antivirus, Anti Spyware and Unified System)
-                                </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Health checks (monitor and review) and systems optimisation (configure and manage)
-                                </li>
-                                <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Proactive and reactive support
-                                </li>
-                                <li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Onsite and remote support
-                                </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Telephony system installation/upgrade and maintenance (Unify Communications System by Unify/Siemens)
-                                </li><li className="flex items-center mb-4 text-base text-gray-600 dark:text-gray-400">
-                                    <span className="mr-3 text-gray-500 dark:text-gray-400">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                                        </svg>
-                                    </span>
-                                    Software as a Service (SaaS)
+                                    Power distribution mapping
                                 </li>
                             </ul>
 
                         </div>
                         <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0">
                             <img src="https://i.postimg.cc/HsSPvTq8/pexels-fauxels-3184357.jpg" alt=""
-                                className="relative    object-cover w-full rounded-md md:h-96 h-44" />
+                                className="relative z-40 object-cover w-full rounded-md md:h-96 h-44" />
                             <div className="absolute top-0 right-0 items-center justify-center hidden -mt-16 lg:inline-flex">
                                 <svg width="290" height="166" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="290"
@@ -204,9 +159,108 @@ export const CloudServices = () => {
                     </div>
                 </div>
             </section>
-            <div className="md:mt-56">
-                <Footer />
-            </div>
+
+
+
+              <section className="flex  mt-40  font-poppins dark:bg-gray-800 ">
+                <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+
+                    <div className="flex flex-wrap ">
+                        <div className="relative w-full px-4 mb-10 md:w-1/2 lg:mb-0 mt-44">
+                            <img src="https://i.postimg.cc/HsSPvTq8/pexels-fauxels-3184357.jpg" alt=""
+                                className="relative z-40 object-cover w-full rounded-md md:h-96 h-44" />
+                            <div className="absolute top-0 right-0 items-center justify-center hidden -mt-16 lg:inline-flex">
+
+                            </div>
+                        </div>
+                        <div className="w-full px-4 mb-10 md:w-1/2 lg:mb-0 ">
+                            <h2 className="mb-4 text-2xl font-bold text-gray-700 dark:text-gray-300 -ml-20">
+                                <div className="flex gap-5 items-center">
+                                    <img src="https://img.icons8.com/?size=160&id=114256&format=png" alt="" />
+                                    <div className="">  Proactive Support</div>
+                                </div>
+
+                            </h2>
+
+                            <ul className="mb-10">
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">HelpDesk (Monitoring & Management)</div>
+                                        <div className="">our managed IT services cover a full spectrum of technology solutions, including remote monitoring and management of your networks, 24/7 help desk support for users, and business continuity solutions to ensure your company is prepared for any possible disruption.</div>
+                                    </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Desktop Monitoring and Care</div>
+                                        <div className="">our preventive maintenance service for desktops regimentally monitors and addresses common problems experienced by desktop users. Whether it’s getting rid of viruses, attacking spyware issues or installing patches, we handle it all – in the background while your employees remain productive.</div>
+                                    </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Server Monitoring and Care</div>
+                                        <div className="">we utilise software agents to track and analyse your network activity 24/7. When a system or function fails, an alert is generated for our team to immediately investigate. Once the problem is identified, we work to remedy it.</div>
+                                    </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">Software/OS patch management</div>
+                                        <div className="">operating system and software updates are monitored and deployed automatically, keeping your system patched, up to date, and configured properly.</div>
+                                    </div>
+                                </li>
+                                <li className="flex  mb-4  text-gray-600 dark:text-gray-400">
+                                    <span className="mr-3 text-gray-500 dark:text-gray-400 ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                            className="w-5 h-5 bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                        </svg>
+                                    </span>
+
+                                    <div className="flex flex-col">
+                                        <div className="font-bold">  Security</div>
+                                        <div className="">our security software suite includes enterprise grade antivirus, anti-malware, intrusion detection, and web filtering, offering your users protection from all vectors.</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>   
+            <Footer />
         </div>
     )
 }
