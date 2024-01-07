@@ -33,7 +33,7 @@ const CompanyList = () => {
   return (
     <div className="2xl:px-20 md:px-10 2xl:mx-auto 2xl:container ">
       <div className="md:pt-5 px-4">
-        <div className="marquee bg-white w-full px- h-56 mx-auto mt-10">
+        <div className="marquee  w-full px- h-56 mx-auto mt-10">
           <ul className="ul marquee-content">
             {generateImageElements()}
           </ul>

@@ -19,7 +19,7 @@ const Hero = () => {
       <div className='w-full mx-auto px-6 md:px-12 xl:px-6'>
         <div className="relative pt-36 ml-auto"> 
           <div className="lg:w-2/3 text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
-            <h1 className="text-gray-700 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl capitalize landing-6 sm:landiing-5 md:leading-4  " >NK2IT - <span className="text-[#3ab03a]">for transforming IT </span><span className="text-gray-800 dark:text-white">in modern workplace</span></h1>
+            <h1 className="text-gray-700 dark:text-white font-bold text-5xl md:text-5xl lg:text-5xl xl:text-5xl capitalize  " >NK2IT - <span className="text-[#3ab03a]">for transforming IT </span><span className="text-gray-800 dark:text-white">in modern workplace</span></h1>
             <p className="mt-8 text-gray-700 dark:text-gray-300">NK2IT PTY LDT is a leading Sydney-based systems integrator (SI) and ICT consultancy provider for SMBs, corporate businesses and government agencies. The NK2IT team specialises in custom innovative ICT solutions to maximise business productivity and efficiency and empower clients to make more informed business decisions with faster Return on Investment.
  </p>
             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">

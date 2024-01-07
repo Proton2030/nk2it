@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <footer className="bg-white border">
+    <footer className="bg-white dark:bg-gray-900 ">
     <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
@@ -28,7 +28,7 @@ export const Footer = () => {
                 href="https://www.facebook.com/NK2itPtyLtd/posts/832786641976442/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-gray-700 transition hover:opacity-75"
+                className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"
               >
                 <span className="sr-only">Facebook</span>
   
@@ -47,7 +47,7 @@ export const Footer = () => {
                 href="https://www.instagram.com/_nk2it_/"
                 rel="noreferrer"
                 target="_blank"
-                className="text-gray-700 transition hover:opacity-75"
+                className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"
               >
                 <span className="sr-only">Instagram</span>
   
@@ -66,7 +66,7 @@ export const Footer = () => {
                 href="https://twitter.com/NK2IT_"
                 rel="noreferrer"
                 target="_blank"
-                className="text-gray-700 transition hover:opacity-75"
+                className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"
               >
                 <span className="sr-only">Twitter</span>
   
@@ -105,7 +105,7 @@ export const Footer = () => {
   <img
     src="https://th.bing.com/th?id=OIP.w_zDkEJ9aLiWR-g0rff8hwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
     alt="linkdln Logo"
-    className="h-6 w-6"  // Adjust the size as needed
+    className="h-6 w-6" 
   />
 </a>
 </li>
@@ -114,23 +114,23 @@ export const Footer = () => {
   
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
           <div>
-            <p className="font-medium text-gray-900">Services</p>
+            <p className="font-medium text-gray-900 dark:text-gray-100">Services</p>
   
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Managed Services </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Managed Services </a>
               </li>
   
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Software Licensing </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Software Licensing </a>
               </li>
   
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Cloud </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Cloud </a>
               </li>
   
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Power cooling </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Power cooling </a>
               </li>
   
             
@@ -138,45 +138,45 @@ export const Footer = () => {
           </div>
   
           <div>
-            <p className="font-medium text-gray-900">Company</p>
+            <p className="font-medium text-gray-900 dark:text-gray-100">Company</p>
   
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> About </a>
               </li>
   
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Meet the Team </a>
               </li>
     <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Unify Communication </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Unify Communication </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Network Infrastructure </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Network Infrastructure </a>
               </li>
             </ul>
           </div>
   
           <div>
-            <p className="font-medium text-gray-900">Helpful Links</p>
+            <p className="font-medium text-gray-900 dark:text-gray-100">Helpful Links</p>
   
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Contact </a>
               </li>
   
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> FAQs </a>
               </li>
   
               <li>
-                <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                <a href="#" className="text-gray-700 dark:text-gray-100 transition hover:opacity-75"> Live Chat </a>
               </li>
             </ul>
           </div>
   
           <div>
-            <p className="font-medium text-gray-900">CONTACT US</p>
+            <p className="font-medium text-gray-900 dark:text-gray-100">CONTACT US</p>
   
             <address className="mt-6 space-y-2 text-sm">
     <p>Address: 222, 20 Lexington Drive, Bella Vista, NSW – 2153</p>

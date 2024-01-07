@@ -29,7 +29,7 @@ export const CloudServices = () => {
                             <h2 className="mb-4 text-2xl font-bold text-gray-700 dark:text-gray-300 -ml-20">
                                 <div className="flex gap-5 items-center">
                                     <img src="https://img.icons8.com/?size=160&id=110198&format=png" alt="" />
-                                    <div className="">Managed Services Capabilities</div>
+                                    <div className="">Cloud Services Capabilities</div>
                                 </div>
 
                             </h2>
