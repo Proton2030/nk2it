@@ -31,11 +31,10 @@ export const Stats = () => {
         <div className="md:7/12 lg:w-1/2" data-aos="fade-up"
      data-aos-duration="1000" >
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl dark:text-white">
-            Nuxt development is carried out by passionate developers
+          The NK2IT team provides consultancy services that covers systems integration
           </h2>
           <p className="my-8 text-gray-600 dark:text-gray-300">
-            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia. <br/> <br/> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+          The NK2IT team specialises in custom innovative ICT solutions to maximise business productivity and efficiency and empower clients to make more informed business decisions with faster Return on Investment. <br/> <br/> The differentiating factor at NK2IT is our 'Lifecycle Consultation Process' (LCP). Through LCP, we collaboratively craft holistic ICT solutions tailored to our clients' unique requirements. Our commitment extends beyond implementation, as we offer comprehensive after-sales support and ongoing consultancy.
           </p>
           <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
             <div className="mt-8 flex gap-4 md:items-center">
