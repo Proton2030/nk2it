@@ -1,26 +1,37 @@
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { useEffect,useRef } from "react";
 import { VideoCard } from '../../../shared/vdocard/VideoCard';
 import CompanyList from '../companyList/CompanyList';
 import backgroundAudio from '../../../../assets/images/Welcome to NK two I T y 14.wav';
 
 const Hero = () => {
 
-  useEffect(() => {
+   useEffect(() => {
     AOS.init();
-    // Play the audio when the component mounts
-    const audio = new Audio(backgroundAudio);
-    audio.play();
-    // Cleanup function to stop audio when the component unmounts
-    return () => {
-      audio.pause();
+    // Add event listener to detect the first user interaction
+    const handleFirstInteraction = () => {
+      playAudio();
+      // Remove the event listener after the first interaction
+      window.removeEventListener('mousedown', handleFirstInteraction);
+      window.removeEventListener('keydown', handleFirstInteraction);
     };
+    window.addEventListener('mousedown', handleFirstInteraction);
+    window.addEventListener('keydown', handleFirstInteraction);
   }, []);
+
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const playAudio = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  };
 
   return (
     <div className="relative" id="home">
+       <audio ref={audioRef} src={backgroundAudio} autoPlay={false} />
       <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
         <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-green-300 dark:to-indigo-600"></div>
