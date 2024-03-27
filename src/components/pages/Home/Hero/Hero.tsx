@@ -4,12 +4,21 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import { VideoCard } from '../../../shared/vdocard/VideoCard';
 import CompanyList from '../companyList/CompanyList';
+import backgroundAudio from '../../../../assets/images/Welcome to NK two I T y 14.wav';
 
 const Hero = () => {
 
   useEffect(() => {
     AOS.init();
-  }, [])
+    // Play the audio when the component mounts
+    const audio = new Audio(backgroundAudio);
+    audio.play();
+    // Cleanup function to stop audio when the component unmounts
+    return () => {
+      audio.pause();
+    };
+  }, []);
+
   return (
     <div className="relative" id="home">
       <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">

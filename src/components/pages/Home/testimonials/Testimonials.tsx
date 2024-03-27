@@ -1,11 +1,9 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-import cust1 from '../../../../assets/images/CUST1.png';
 import cust2 from '../../../../assets/images/CUST2.png';
 import cust3 from '../../../../assets/images/CUST3.png';
 import cust4 from '../../../../assets/images/CUST4.png';
-import cust5 from '../../../../assets/images/CUST5.png';
 import cust6 from '../../../../assets/images/CUST6.png';
 export const Testimonials = () => {
   useEffect(() => {
